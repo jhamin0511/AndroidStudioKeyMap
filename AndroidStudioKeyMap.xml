@@ -14,12 +14,18 @@
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
+  <action id="ActivateGitHubPullRequestsToolWindow">
+    <keyboard-shortcut first-keystroke="alt 8" />
+  </action>
   <action id="ActivateLogcatToolWindow">
     <keyboard-shortcut first-keystroke="alt 6" />
   </action>
   <action id="ActivateTODOToolWindow" />
   <action id="Android.SyncProject">
     <keyboard-shortcut first-keystroke="ctrl alt r" />
+  </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
   </action>
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="shift ctrl alt f4" />
@@ -30,11 +36,25 @@
   <action id="Find">
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="Git.CompareWithBranch">
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
   </action>
   <action id="GotoImplementation">
     <mouse-shortcut keystroke="control alt button1" />
+  </action>
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="f2" />
+    <mouse-shortcut keystroke="button4" />
+  </action>
+  <action id="GotoPreviousError">
+    <keyboard-shortcut first-keystroke="shift f2" />
+    <mouse-shortcut keystroke="button5" />
   </action>
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="alt period" />
@@ -55,6 +75,9 @@
     <keyboard-shortcut first-keystroke="alt v" />
   </action>
   <action id="UpdateRunningApplication" />
+  <action id="Vcs.ShowDiffWithLocal">
+    <keyboard-shortcut first-keystroke="alt l" />
+  </action>
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl f10" />
   </action>
